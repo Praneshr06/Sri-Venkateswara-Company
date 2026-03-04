@@ -1,0 +1,131 @@
+.admin-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #f0f4ff 100%);
+}
+
+.admin-hero {
+  padding: 4rem 2rem 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  color: #fff;
+}
+
+.admin-hero h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.admin-hero p {
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+.admin-content {
+  padding: 3rem 2rem 4rem;
+}
+
+.admin-section {
+  margin-bottom: 2.5rem;
+}
+
+.admin-section h2 {
+  margin-bottom: 1rem;
+  color: #1a202c;
+}
+
+.admin-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.admin-download-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.4);
+}
+
+.admin-download-btn:hover {
+  filter: brightness(1.05);
+}
+
+.admin-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.admin-card p {
+  margin: 0.25rem 0;
+}
+
+.admin-table-wrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  overflow: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.admin-table th {
+  background: #f3f4f6;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.admin-table tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+.admin-message-cell {
+  max-width: 360px;
+  white-space: pre-wrap;
+}
+
+.admin-empty {
+  padding: 1rem 1.25rem;
+  background: #fef3c7;
+  border-radius: 8px;
+  border: 1px solid #fbbf24;
+  color: #92400e;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .admin-hero {
+    padding: 3rem 1.5rem 2.5rem;
+  }
+
+  .admin-hero h1 {
+    font-size: 2rem;
+  }
+
+  .admin-content {
+    padding: 2rem 1.5rem 3rem;
+  }
+}
+
+
