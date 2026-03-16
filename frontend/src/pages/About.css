@@ -276,6 +276,31 @@
   background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
 }
 
+/* Video Styles */
+.about-video-container {
+  margin: 2rem 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  position: relative;
+}
+
+.about-video-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+}
+
+.about-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 600px;
+  object-fit: contain;
+  background: #000;
+}
+
 @media (max-width: 768px) {
   .about-hero h1 {
     font-size: 2.5rem;
@@ -301,5 +326,9 @@
 
   .about-image-wrapper .about-image {
     height: 200px;
+  }
+
+  .about-video {
+    max-height: 400px;
   }
 }

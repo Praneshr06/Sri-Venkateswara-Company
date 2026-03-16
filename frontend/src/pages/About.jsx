@@ -23,6 +23,17 @@ function About() {
               />
             </div>
             <p>
+              All the way back in 1964, Rm. M.V. Muthiah Chettiar first began Sri Venkateswara Company as an ancillary 
+              to TI Cycles of India, producing rivets for cycles. After which it was run as a partnership, by his four 
+              sons and a relative at Karakudi, Chettinad.
+            </p>
+            <p>
+              Eventually, the other partners sold their shares to MVM Muthu, who by then had brought the rivet 
+              manufacturing plant to Coimbatore and later handed over the management to his son, Jawahar Muthu, the 
+              current CEO, has been running the family business ever since. He now has more than three and a half 
+              decades of experience in cold forged rivet manufacturing.
+            </p>
+            <p>
               Sri Venkateswara Company has been a trusted leader in the rivet manufacturing industry for around 60 years. 
               We specialize in manufacturing rivets using advanced cold forging techniques, ensuring superior quality 
               and precision in every product we create.
@@ -35,6 +46,37 @@ function About() {
             <p>
               With 100 dedicated employees, we continue to push the boundaries of manufacturing excellence, delivering 
               riveting quality that meets and exceeds international standards.
+            </p>
+          </section>
+
+          <section className="about-section">
+            <h2>Video</h2>
+            <div className="about-video-container">
+              <video 
+                controls 
+                className="about-video"
+              >
+                <source src="/images/gallery/video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </section>
+
+          <section className="about-section">
+            <h2>Our Clients & Industries</h2>
+            <p>
+              Sri Venkateswara Company over the years has garnered clients in many, many industries. The company 
+              supplies rivets to industries ranging from electrical appliances, automotive parts, ordinance factories, 
+              kitchen equipment manufacturers and much more. SVC has the technical capabilities, adequate experience 
+              in the industry, with detailed production lines, that can to cater to nearly any specialized rivet request.
+            </p>
+            <p>
+              Using the CEO expertise and experience from other members in the management the company, in its short 
+              span has now grown to become exporters. SVC exports its product to countries like Thailand and Germany.
+            </p>
+            <p>
+              Please explore our website to learn more about Sri Venkateswara Company and reach out to us for any 
+              questions or inquiries. We look forward to serving all your rivet-related needs.
             </p>
           </section>
 

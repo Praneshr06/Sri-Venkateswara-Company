@@ -50,7 +50,6 @@ function Home() {
                 </p>
                 <div className="hero-buttons">
                   <Link to="/products" className="btn btn-primary">View Products</Link>
-                  <Link to="/contact" className="btn btn-secondary">Request a Quote</Link>
                 </div>
               </div>
             </div>

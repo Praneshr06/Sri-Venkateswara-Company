@@ -123,12 +123,6 @@ function Products() {
                 </div>
                 <div className="product-footer">
                   <button 
-                    className="btn-product" 
-                    onClick={() => navigate('/contact')}
-                  >
-                    Request Quote
-                  </button>
-                  <button 
                     className="btn-product btn-secondary"
                     onClick={() => navigate('/products')}
                   >

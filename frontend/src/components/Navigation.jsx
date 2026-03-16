@@ -85,11 +85,6 @@ function Navigation() {
               </Link>
             </li>
           )}
-          <li className="nav-item">
-            <Link to="/contact" className="nav-link nav-cta">
-              Request a Quote
-            </Link>
-          </li>
           {isLoggedIn ? (
             <li className="nav-item">
               <div className="user-menu">

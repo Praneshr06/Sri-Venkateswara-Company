@@ -44,7 +44,6 @@ function Footer() {
               <li><Link to="/products">Solid Rivets</Link></li>
               <li><Link to="/products">Semi-Tubular Rivets</Link></li>
               <li><Link to="/products">Tubular Rivets</Link></li>
-              <li><Link to="/contact">Request a Quote</Link></li>
             </ul>
           </div>
 
